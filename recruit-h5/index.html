@@ -1,0 +1,503 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=720,target-densitydpi=device-dpi,user-scalable=no">
+	<meta name="apple-mobile-web-app-title" content="大圆银泰商品合约有限公司" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="msapplication-tap-highlight" content="no">	
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="keywords" content="大泰集团招聘 大圆银泰商品合约交易市场有限公司 大泰金石投资管理有限公司 上海圆昶金融信息服务有限公司 江苏莱斯电子商务有限公司 大圆普洱交易中心" />
+	<meta name="description" content="大泰集团招聘 大圆银泰商品合约交易市场有限公司 大泰金石投资管理有限公司 上海圆昶金融信息服务有限公司 江苏莱斯电子商务有限公司 大圆普洱交易中心"/>
+	<title>大泰集团2016春季大型社会招聘</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="resources/css/index.css" />
+	<script>
+		function IsPC()  
+		{  
+           var userAgentInfo = navigator.userAgent;
+           var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");  
+           var flag = true;  
+           for (var v = 0; v < Agents.length; v++) {  
+               if (userAgentInfo.indexOf(Agents[v]) > 0) 
+               { flag = false; break; }  
+           }  
+           return flag;  
+		}
+		if(IsPC()){
+			window.location.href='http://special.zhaopin.com/2016/nj/jsdy020265/index.html';	
+		}
+		function isIphone4()  
+		{  
+		   var userAgentInfo = navigator.userAgent;
+		   var Agents = new Array("iPhone");  
+		   var flag = false;  
+		   for (var v = 0; v < Agents.length; v++) {  
+		       if (userAgentInfo.indexOf(Agents[v]) > 0) 
+		       { flag = true; break; }  
+		   }  
+		   var width = window.screen.width;
+		   var height = window.screen.height;
+		   if(flag&&width==320 && height==480){
+		   	return true;
+		   }else{
+		   	return false;
+		   }
+		}
+		if(isIphone4()){
+			var fileref=document.createElement("link");
+			fileref.setAttribute("rel", "stylesheet");
+			fileref.setAttribute("type", "text/css");
+			fileref.setAttribute("href", 'resources/css/index-ip4.css');	
+			document.getElementsByTagName("head")[0].appendChild(fileref);	
+		}
+		function updateProcess(number) {
+			var width = 280;
+			var height = 240;
+			var left = -width * number / 100;
+			var top = 230 - height * number / 100;
+			var position = left + 'px ' + top + 'px';
+			$("#pagePercent").html(number);
+			$("#logo").css('background-position', position);
+			if (number == 100) {
+				setTimeout(function() {
+					$("#logo").removeClass("animate");
+					$(".loading-container").fadeOut(1000, function() {
+						$('.start-container').fadeIn(500, function() {
+							$('.start').addClass('show');
+							setTimeout(function() {
+								$('.start-tip,.circle-box').show();
+								$('.start,.circle-box,.start-tip').on('touchend', function() {
+									var start = $('.start');
+									var audio1 = document.getElementById("audio1");
+									audio1.play();
+									var audio = document.getElementById("audio");
+									window.paused = false;
+									audio.play();
+									$('.circle-outer').removeClass('circle-ani');
+									$('.circle-box,.skip-btn,.start-tip').hide();
+									window.clearInter = setInterval(function() {
+										if (time == 13) {
+											clearInterval(window.clearInter);
+											$('.start-container').fadeOut(500);
+											$('.page-container').animate({
+												'opacity' : 1
+											}, 500, function() {
+												$('body').on('touchmove touchstart', function(event) {
+													event.preventDefault();
+												});
+											});
+										}
+										var position = (isIphone4()?-576:-720);
+										start.css('background-position', position * time + "px 0");
+										time++;
+									}, 100);
+								});
+							}, 1200);
+						});
+					});
+				});
+			}
+		}
+	</script>
+	<!-- add js -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/turn.js"></script>
+</head>
+<body>
+	<div style='display:none;'>     
+		<img src='resources/images/share-logo.jpg' />
+	</div>
+	<div class="body-container">
+		<div class="loading-container">
+			<div class="logo animate" id="logo">
+				<img src="resources/images/logo.png" />
+			</div>
+			<p>
+				加载中，请稍后 <span id="pagePercent"> 0 </span>%
+			</p>
+		</div>
+		<div class="start-container">
+			<div class="start-tip">
+				点击开启
+			</div>
+			<div class="circle-box">
+				<div class="circle-inner"></div>
+				<div class="circle-outer circle-ani"></div>
+			</div>
+			<div class="skip-btn">
+				跳过
+			</div>
+			<div class="start"></div>
+			<div class="opening-title"></div>
+			<div class="opening-logo"></div>
+		</div>
+		<div class="page-container">
+			<!-- BEGIN FLIPBOOK STRUCTURE -->
+			<div data-template="true" data-cat="book7" id="fb7-ajax">
+				<!-- BEGIN HTML BOOK -->
+				<div data-current="book7" class="fb7" id="fb7">
+
+					<!-- BEGIN CONTAINER BOOK -->
+					<div id="fb7-container-book">
+
+						<!-- BEGIN PAGES -->
+						<div id="fb7-book">
+							<!-- BEGIN PAGE 1 -->
+							<div class="page page1">
+								<div class="page-box">
+									<div class="corner-box"></div>
+									<div class="pic-box">
+										<div class="pic pic1 pic-ani"></div>
+									</div>
+									<div class="text-box1"></div>
+									<div class="pg1-plant"></div>
+									<div class="pg1-mouse"></div>
+								</div>
+								<div class="audio-wrap audio-ani">
+									<div class="audio-box"></div>
+									<!--<span class="open">音乐开</span>
+									<span class="close">音乐关</span>-->
+								</div>
+								<div class="rb-corners"></div>
+							</div>
+							<!-- END PAGE 1 -->
+							<!-- BEGIN PAGE 2 -->
+							<div class="page page2">
+								<div class="page-box">
+									<div class="corner-box"></div>
+									<div class="pic-box">
+										<div class="pic pic2 pic-ani"></div>
+									</div>
+									<div class="text-box2"></div>
+									<div class="pg2-can"></div>
+									<div class="pg2-light"></div>
+								</div>
+								<div class="audio-wrap audio-ani">
+									<div class="audio-box"></div>
+									<!--<span class="open">音乐开</span>
+									<span class="close">音乐关</span>-->
+								</div>
+								<div class="rb-corners"></div>
+							</div>
+							<!-- END PAGE 2 -->
+							<!-- BEGIN PAGE 3 -->
+							<div class="page page3">
+								<div class="page-box">
+									<div class="corner-box"></div>
+									<div class="pic-box">
+										<div class="pic pic3 pic-ani"></div>
+									</div>
+									<div class="text-box3"></div>
+									<div class="pg3-pencil"></div>
+									<div class="pg3-san"></div>
+								</div>
+								<div class="audio-wrap audio-ani">
+									<div class="audio-box"></div>
+									<!--<span class="open">音乐开</span>
+									<span class="close">音乐关</span>-->
+								</div>
+								<div class="rb-corners"></div>
+							</div>
+							<!-- END PAGE 3 -->
+
+							<!-- BEGIN PAGE 4 -->
+							<div class="page page4">
+								<div class="page-box">
+									<div class="corner-box"></div>
+									<div class="pic-box">
+										<div class="pic pic4"></div>
+									</div>
+									<div class="text-box4"></div>
+									<div class="pg4-phone"></div>
+									<div class="pg4-pig"></div>
+								</div>
+								<div class="audio-wrap audio-ani">
+									<div class="audio-box"></div>
+									<!--<span class="open">音乐开</span>
+									<span class="close">音乐关</span>-->
+								</div>
+								<div class="rb-corners"></div>
+							</div>
+							<!-- BEGIN PAGE 5 -->
+							<div class="page page5">
+								<div class="page-box">
+									<div class="corner-box"></div>
+									<div class="pic-box">
+										<div class="pic pic5"></div>
+									</div>
+									<div class="text-box5"></div>
+									<div class="pg5-clock"></div>
+									<div class="pg5-paper"></div>
+								</div>
+								<div class="audio-wrap audio-ani">
+									<div class="audio-box"></div>
+									<!--<span class="open">音乐开</span>
+									<span class="close">音乐关</span>-->
+								</div>
+								<div class="rb-corners"></div>
+							</div>
+							<!-- BEGIN PAGE 6 -->
+							<div class="page page6">
+								<div class="page-box">
+									<div class="corner-box"></div>
+									<div class="pic-box">
+										<div class="pic pic6"></div>
+									</div>
+									<div class="text-box6"></div>
+									<div class="pg6-boot"></div>
+									<div class="pg6-tuoluo"></div>
+								</div>
+								<div class="audio-wrap audio-ani">
+									<div class="audio-box"></div>
+									<!--<span class="open">音乐开</span>
+									<span class="close">音乐关</span>-->
+								</div>
+								<div class="rb-corners"></div>
+							</div>
+							<div class="page page7">
+								<div class="page-box">
+									<div class="pic7-box">
+										<div class="pic7 pic7-1"></div>
+										<div class="pic7 pic7-2"></div>
+										<div class="pic7 pic7-3"></div>
+									</div>
+									<div class="text-box7"></div>
+								</div>
+								<div class="audio-wrap audio-ani">
+									<div class="audio-box"></div>
+									<!--<span class="open">音乐开</span>
+									<span class="close">音乐关</span>-->
+								</div>
+								<div class="rb-corners"></div>
+							</div>
+							<div class="page page8">
+								<div class="page-box">
+									<div class="pic8">
+										<div class="job-box">
+											<div class="job-item job1">
+												<p class="job-title">南京专场招聘会</p>
+												<p>2016年3月5日(周六)9:00-17:00</p>
+												<p>新街口苏宁诺富特酒店5F </p>
+												<p>南京市淮海路68号</p>
+											</div>
+											<div class="job-item job2">
+												<p class="job-title">上海专场招聘会(第一场)</p>
+												<p>2016年3月12日(周六)9:00-17:00</p>
+												<p>东方纯一大厦15楼</p>
+												<p>上海市浦东新区峨山路505号</p>												
+											</div>
+											<div class="job-item job3">
+												<p class="job-title">上海专场招聘会(第二场)</p>
+												<p>2016年3月20日(周日)9:00-17:00</p>
+												<p>华亭宾馆二楼荟萃厅</p>
+												<p>上海市徐汇区漕溪北路1200号</p>
+											</div>
+										</div>
+										<p class="job-tip">诚邀您参加大泰集团招聘会,招聘会现场可进行产品体验,并有机会获赠精美礼品</p>
+									</div>
+									<div class="title-logo"></div>
+									<div class="title-logos"></div>
+								</div>
+								<div class="rb-corners"></div>		
+							</div>
+							<div class="page page9"></div>
+						</div>
+					</div>
+					<!-- END PAGES -->
+					<!-- arrows -->
+					<a class="fb7-nav-arrow prev"></a>
+					<a class="fb7-nav-arrow next"></a>
+					<!-- shadow -->
+					<div class="fb7-shadow"></div>
+				</div>
+				<!-- END CONTAINER BOOK -->
+			</div>
+			<script>
+				updateProcess(40);
+			</script>
+			<div class="list-page">
+				<div class="list-title"></div>
+				<div class="list-tip tip1">
+					<span class="tip-num">•</span>您可以直接点击职位或"查看更多职位"查看职位详情；					
+				</div>
+				<div class="list-tip tip2">					
+					<p><span class="tip-num">•</span>您可以直接将简历发送至简历投递邮箱（简历包含个人信息、教育履历、职业履历、工作成就、求职意向等），邮件标题请注明“申请公司+申请职位+个人姓名”；</p>				
+				</div>
+				<div class="list-tip tip3">					
+					<p><span class="tip-num">•</span>您可以在招聘会现场投递简历。</p>
+				</div>
+				<div class="list-wrap">
+					<div class="list-box clearfix">
+						<a href="javascript:showCode(1);" class="list-header clearfix"> <div class="company-logo dyyt"></div>
+						<div class="company-text">
+							<h3 class="company-name"><div class="follow"></div>江苏大圆银泰商品合约交易市场有限公司</h3>
+							<p class="company-intro">
+								全国首家提出创新交易模式的大宗商品交易平台,致力于构建互联网金融体系
+							</p>
+						</div> </a>
+						<ul class="position">
+							<a href="http://jobs.zhaopin.com/45479102290251100000.htm" target="_blank">
+							<li>
+								移动端产品经理<span class="float-right"><span class="address">[南京]</span></span>
+							</li></a>
+							<a href="http://jobs.zhaopin.com/45479102290251107000.htm" target="_blank">
+							<li>
+								互联网营销<span class="float-right"><span class="address">[南京]</span></span>
+							</li></a>
+							<a href="http://jobs.zhaopin.com/45479102290251101000.htm" target="_blank">
+							<li>
+								运维经理<span class="float-right"><span class="address">[南京]</span></span>
+							</li></a>
+							<a href="mailto:hr@jme.com" class="email">
+							<li class="email">
+								简历投递邮箱：hr@jme.com
+							</li></a>
+						</ul>
+						<a class="more-box" href="http://special.zhaopin.com/2016/nj/jsdy020265/list.html" target="_blank"><i class="more"></i>查看更多职位</a>
+					</div>
+					<div class="list-box clearfix">
+						<a href="javascript:showCode(2);" class="list-header clearfix"> <div class="company-logo ls"></div>
+						<div class="company-text">
+							<h3 class="company-name"><div class="follow"></div>江苏莱斯电子商务有限公司</h3>
+							<p class="company-intro">
+								致力于打造国内最大的原创手工作品的平台，为国内外所有原创“匠人”提供交易及交流平台
+							</p>
+						</div> </a>
+						<ul class="position">
+							<a href="http://jobs.zhaopin.com/45479102290251113000.htm" target="_blank">
+							<li>
+								APP产品主管<span class="float-right"><span class="address">[南京]</span></span>
+							</li></a>
+							<a href="http://jobs.zhaopin.com/45479102290251114000.htm" target="_blank">
+							<li>
+								市场部经理<span class="float-right"><span class="address">[南京]</span></span>
+							</li></a>
+							<a href="mailto:hr@jme.com" class="email">
+							<li class="email">
+								简历投递邮箱：hr@jme.com
+							</li></a>
+						</ul>
+						<a class="more-box" href="http://special.zhaopin.com/2016/nj/jsdy020265/list.html" target="_blank"><i class="more"></i>查看更多职位</a>
+					</div>
+					<div class="list-box clearfix">
+						<a href="javascript:showCode(3);" class="list-header clearfix"> <div class="company-logo dype"></div>
+						<div class="company-text">
+							<h3 class="company-name"><div class="follow"></div>江苏大圆茶业有限公司</h3>
+							<p class="company-intro">
+								国内首家普洱茶金融化的专业机构。开发了普洱茶金融交易，为普洱茶产业的多元化发展提供了新的通道
+							</p>
+						</div> </a>
+						<ul class="position">							
+							<a href="http://jobs.zhaopin.com/45479102290251094000.htm" target="_blank">
+							<li>
+								交易专员<span class="float-right"><span class="address">[南京]</span></span>
+							</li></a>
+							<a href="http://jobs.zhaopin.com/45479102290251093000.htm" target="_blank">
+							<li>
+								风控专员<span class="float-right"><span class="address">[南京]</span></span>
+							</li></a>
+							<a href="http://jobs.zhaopin.com/45479102290251170000.htm" target="_blank">
+							<li>
+								连锁店运营<span class="float-right"><span class="address">[南京]</span></span>
+							</li></a>
+							<a href="mailto:hr@jme.com" class="email">
+							<li class="email">
+								简历投递邮箱：hr@jme.com
+							</li></a>
+						</ul>
+						<a class="more-box" href="http://special.zhaopin.com/2016/nj/jsdy020265/list.html" target="_blank"><i class="more"></i>查看更多职位</a>
+					</div>
+					<div class="list-box clearfix">
+						<a href="javascript:showCode(4);" class="list-header clearfix"> <div class="company-logo tjs"></div>
+						<div class="company-text">
+							<h3 class="company-name"><div class="follow"></div>泰金所(大泰金石投资管理有限公司)</h3>
+							<p class="company-intro">
+								经中国证监会核准的独立基金销售机构，致力于构建诚信、安全、专业优选的一站式基金销售平台
+							</p>
+						</div> </a>
+						<ul class="position">
+							<a href="http://jobs.zhaopin.com/45479102290251134000.htm" target="_blank">
+							<li>
+								消费金融总监<span class="float-right"><span class="address">[上海]</span></span>
+							</li></a>
+							<a href="http://jobs.zhaopin.com/45479102290251123000.htm" target="_blank">
+							<li>
+								产品运营主管/经理<span class="float-right"><span class="address">[上海]</span></span>
+							</li></a>
+							<a href="http://jobs.zhaopin.com/45479102290251128000.htm" target="_blank">
+							<li>
+								活动运营主管/经理<span class="float-right"><span class="address">[上海]</span></span>
+							</li></a>
+							<a href="mailto:hr@jme.com" class="email">
+							<li class="email">
+								简历投递邮箱：hr@dtfunds.com
+							</li></a>
+						</ul>
+						<a class="more-box" href="http://special.zhaopin.com/2016/nj/jsdy020265/list.html" target="_blank"><i class="more"></i>查看更多职位</a>
+					</div>
+					<div class="list-box last clearfix">
+						<a href="javascript:void(0);" class="list-header clearfix"> <div class="company-logo ycjr"></div>
+						<div class="company-text">
+							<h3 class="company-name">上海圆昶金融信息服务有限公司</h3>
+							<p class="company-intro">
+								致力于从事互联网金融信息技术，专业从事数据智能化方向、社会信用体系、政务财税软件开发和应用
+							</p>
+						</div> </a>
+						<ul class="position">
+							<a href="http://jobs.zhaopin.com/45479102290251145000.htm" target="_blank">
+							<li>
+								高级JAVA工程师<span class="float-right"><span class="address">[上海]</span></span>
+							</li></a>
+							<a href="http://jobs.zhaopin.com/45479102290251156000.htm" target="_blank">
+							<li>
+								前端开发工程师<span class="float-right"><span class="address">[上海]</span></span>
+							</li></a>
+							<a href="http://jobs.zhaopin.com/45479102290251150000.htm" target="_blank">
+							<li>
+								高级测试工程师<span class="float-right"><span class="address">[上海]</span></span>
+							</li></a>
+							<a href="mailto:hr@jme.com" class="email">
+							<li class="email">
+								简历投递邮箱：hr-sh@ycfis.com
+							</li></a>
+						</ul>
+						<a class="more-box" href="http://special.zhaopin.com/2016/nj/jsdy020265/list.html" target="_blank"><i class="more"></i>查看更多职位</a>
+					</div>
+				</div>
+				<div class="list-logo"></div>
+			</div>
+			<div class="cover-box">
+				<div class="qrcode-div"></div>
+				<div class="code code1" ><img src="resources/images/qr-jme.jpg" /></div>
+				<div class="code code2" ><img src="resources/images/qr-ls.jpg" /></div>
+				<div class="code code3" ><img src="resources/images/qr-pe.jpg" /></div>
+				<div class="code code4" ><img src="resources/images/qr-tjs.jpg" /></div>
+				<div class="qrcode-tip qrtip1">长按二维码关注大圆银泰微信公众号</div>
+				<div class="qrcode-tip qrtip2">长按二维码关注莱斯商城微信公众号</div>
+				<div class="qrcode-tip qrtip3">长按二维码关注大圆普洱微信公众号</div>
+				<div class="qrcode-tip qrtip4">长按二维码关注泰金所微信公众号</div>
+			</div>
+			<!-- END HTML BOOK -->
+		</div>
+		<div class="page-tip">
+			<div class="city"></div>
+			<div class="tip">
+				请竖屏浏览,蟹蟹
+			</div>
+		</div>
+		<!-- END FLIPBOOK STRUCTURE -->
+		<audio paused id="audio1" preload="perload">
+			<source src="resources/audio/page.mp3" type="audio/mpeg">
+		</audio>
+		<audio autoplay="autoplay" preload="perload" loop="loop" id="audio">
+			<source src="resources/audio/BGM.mp3" type="audio/mpeg">
+			Your browser does not support the audio tag.
+		</audio>
+	</div>
+	<script src="js/onload.js"></script>
+	
+</body>
+</html>
